@@ -566,7 +566,7 @@ bot.onText(/\/remove/, (msg) => {
 
 
 bot.onText(/\/incident/, (msg) => {
-    bot.sendMessage(5126686245, incidentMsg, { parse_mode: "HTML"});
+    bot.sendMessage(user_telegram, incidentMsg, { parse_mode: "HTML"});
 
 });
 
