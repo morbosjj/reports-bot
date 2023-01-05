@@ -9,7 +9,8 @@ const month = ("0" + date.getMonth() + 1).slice(-2);
 const year = date.getFullYear();
 const hours = date.getHours();
 // const minutes = ("0" + date.getMinutes()).slice(-2);;
-const minutes = ("0" + date.getMinutes()).slice(-2);
+const minutes = date.getMinutes();
+
 
 const TelegramBot  = require('node-telegram-bot-api');
 const { default: axios } = require('axios');
